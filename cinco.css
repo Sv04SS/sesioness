@@ -1,0 +1,16 @@
+.boton.cinco::after {
+    content: "";
+    width: 500px;
+    height: 100px;
+    background-image: url(https://c.tenor.com/rkPNIZSk1toAAAAC/purple-aesthetic.gif);
+    position:absolute;
+    z-index: 1;
+    top: -100px;
+    left: 0;
+    transition: .3s ease-in-out;
+    
+}
+
+.boton.cinco:hover::after {
+    top: 0;
+}

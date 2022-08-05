@@ -1,0 +1,16 @@
+.boton.cuatro::after {
+    content: "";
+    width: 500px;
+    height: 100px;
+    background-image: url(http://media2.giphy.com/media/kj5eW9ype6EV2/giphy.gif);
+    position:absolute;
+    z-index: 1;
+    top: -100px;
+    left: 0;
+    transition: .3s ease-in-out;
+    
+}
+
+.boton.cuatro:hover::after {
+    top: 0;
+}
